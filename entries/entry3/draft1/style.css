@@ -1,3 +1,159 @@
-h1 {
-	font-family: arial;
+@font-face {
+    font-family: 'clarendonbt-bold';
+    src: url('fonts/clarendonbt-bold.ttf');
+    font-weight: normal;
+    font-style: normal;
 }
+
+h1 { 
+	font-size: 150px;
+	text-align: center;
+	color: #FFFFFF;
+	font-family: clarendonbt-bold;
+ }
+
+.tomford {
+ 	background-color: #000000;
+ 	min-height: 50vh;
+ 	display: flex;
+ 	justify-content: center;
+ 	align-items: center;
+ }
+p {
+	font-size: 35px;
+	text-align: center;
+	font-family: sans-serif;
+}
+
+.des1 {
+	display: flex;
+	margin-left: 300px;
+	height: 150px;
+	background-color: #000000;
+	justify-content: center;
+	align-items: center;
+}
+p2 {
+ 	font-size: 15px;
+ 	color: #FFFFFF;
+ 	text-align: center;
+ 	margin-left: 100PX;
+ 	margin-right: 100px;
+
+ }
+
+p3 {
+	display: inline-block;
+    padding: 10px 20px;
+    background-color: #8B4513;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+p4 {
+	display: inline-block;
+    padding: 10px 20px;
+    background-color: #B22222;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.oud2 {
+	display: flex;
+	margin-right: 500px;
+	margin-top: 30px;
+	height: 100px;
+	background-color: #000000;
+	justify-content: center;
+	align-items: center;
+
+}
+
+p5 {
+	color: #FFFFFF;
+	font-size: 30px;
+	font-family: sans-serif;
+}
+
+.des2 {
+	display: flex;
+	margin-left: 400px;
+	margin-right: 100px;
+	margin-top: 30px;
+	margin-bottom: 45px;
+	height: 150px;
+	justify-content: center;
+	align-items: center;
+}
+
+p6 {
+	font-size: 20px;
+}
+
+.oud3 {
+	display: flex;
+	height: 80px;
+	background-color: #000000;
+	justify-content: center;
+	align-items: center;
+}
+
+p7 {
+	color: #FFFFFF;
+	font-size: 25px;
+	font-family: sans-serif;
+}
+
+.des3 {
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
+
+p8 {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	font-size: 20px;
+}
+
+.noteblock {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 100px;
+}
+
+.end {
+	justify-content: center;
+	margin-top: 30px;
+	display: flex;
+	align-items: center;
+}
+
+p9 {
+	font-size: 18px;
+	font-family: clarendonbt-bold;
+}
+
+.tfwebsite {
+            display: flex;
+            margin-top: 30px;
+            padding: 10px 20px;
+            background-color: #000000;
+            color: #fff;
+            text-decoration: none;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            justify-content: center;
+            align-items: center;
+        }
+.tfwebsite:hover {
+            background-color: #0056b3;
+        }

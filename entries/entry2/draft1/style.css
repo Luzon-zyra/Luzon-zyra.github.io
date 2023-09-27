@@ -1,3 +1,184 @@
-h1 {
-	font-family: arial;
+.perfumelibraryheadline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-size: 50px;
+    font-family: serif;
+}
+
+.h1 {
+    text-align: center;
+}
+
+.button1 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3CB371;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button2 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #DEB887;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button3 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #FFC0CB;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button4 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #000080;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button5 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #FF4500;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button6 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #8B0000;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button7 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #98FB98;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button8 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #FFEFD5;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button9 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #00FFFF;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button10 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #FA8072;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+            background-color: #0056b3;
+        }
+
+.notesbutton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 0vh;
+}
+
+.marquee1 {
+    margin: 50px;
+
+}
+
+.picandword {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+p1 {
+    flex: 1;
+    margin: 20px;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+p2 {
+    flex: 1;
+    margin: 30px;
+    margin-top: 50px;
+    font-size: 15px;
+    max-width: 300px;
+}
+
+img {
+    width: 600px;
+    max-width: 100%;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+.memoparislink {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 50px;
 }
