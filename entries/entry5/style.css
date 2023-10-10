@@ -1,0 +1,171 @@
+body {
+	background-color: #FAFAD2;
+}
+
+.empty {
+  width: 100vw;
+  height: 100vh;
+  background-color: #FAFAD2;
+  background-image: url(img/beach.jpeg);
+}
+
+.scroll {
+ 	display: flex;
+ 	margin-left: 50%;
+ 	position: sticky;
+ 	top: 0vh;
+ 	font-size: 45px;
+
+}
+
+.container {
+  font-family: 'PT Mono', monospace;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.name {
+	font-size: 100px;
+	color: #FFD700;
+}
+
+.name:hover {
+  background: -webkit-radial-gradient(#40ff00, #7d81ff, #00ed8a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+}
+
+.name2 {
+	font-size: 50px;
+}
+
+.pineapple {
+	display: block;
+	width: 500px;
+	height: 600px;
+}
+
+.pineapple:hover {
+	content: url(img/milehigh38.jpeg);
+}
+
+.pagif {
+    font-style: italic;
+    text-decoration: none;
+	color: #FFD700;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.pagif:hover:after {
+	content: url(https://media.tenor.com/-cJ8wE8T7ioAAAAC/pinapple-express.gif);
+  	left: 50%;
+  	top: 50%;
+  	position: absolute;
+  	margin-left: 300px;
+  	transform: translate(-50%, -50%);
+}
+
+.world {
+    text-decoration: none;
+    color: #99CDFF;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.world:hover:after {
+	content: url(img/earth.jpg);
+  	left: 50%;
+  	top: 50%;
+  	position: absolute;
+  	margin-left: 300px;
+  	transform: translate(-50%, -50%);
+}
+
+.dis1 {
+	font-size: 30px;
+	margin: 60px;
+}
+
+.perfume {
+	  background-color: #FFD700;
+}
+
+.perfume:hover {
+  background: -webkit-radial-gradient(#40ff00, #7d81ff, #00ed8a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+}
+
+.bean {
+	color: #8B4513;
+	text-decoration: none;
+	position: relative;
+	align-items: center;
+	justify-content: center;
+}
+
+.bean:hover:after {
+	content: url(img/tonkabeans.jpg);
+  	left: 40%;
+  	top: 40%;
+  	position: absolute;
+  	margin-left: 30px;
+  	transform: translate(-50%, -50%);
+}
+
+ .down-arrow {
+            width: 0;
+            height: 0;
+            border-left: 40px solid transparent;
+            border-right: 40px solid transparent;
+            border-top: 60px solid #000000; 
+            margin: 0 auto;
+        }
+
+
+.last {
+    border: 10px solid #000;
+    background-color: #99CDFF;
+}
+
+.notes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+
+.dis2 {
+	font-size: 25px;
+	display: flex;
+	justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
