@@ -1,0 +1,271 @@
+body {
+    background: #2E8B57;
+}
+
+
+.clickme {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(img/forest.jpg);
+    border: 10px solid #000;
+}
+
+.clickme p {
+    text-align: center;
+    font-size: 100px;
+    font-family: sans-serif;
+}
+
+.clickme a {
+    color: white;
+}
+
+.topic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 160vh;  
+    flex-direction: column;
+    color: white;
+    background: repeating-linear-gradient(#008B8B,#00FA9A);
+}
+
+.name {
+    font-size: 120px;
+}
+
+.name:hover {
+        background: -webkit-radial-gradient(#40ff00, #7d81ff, #00ed8a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.type {
+    font-size: 50px;
+    margin-left: 40%;
+}
+
+
+.see {
+    margin-top: 20%;
+}
+
+.topic a {
+    font-size: 30px;
+}
+
+.mainimg {
+    display: flex;
+    justify-content: space-evenly;
+    min-height: 100vh;
+    background: repeating-linear-gradient(#00FA9A,#00CED1);
+}
+
+ .down-arrow {
+            width: 0;
+            height: 0;
+            border-left: 40px solid transparent;
+            border-right: 40px solid transparent;
+            border-top: 60px solid #FFF; 
+            margin: 0 auto;
+            margin-top: 30%;
+
+        }
+
+.mainimg img {
+    width: 50%;
+    height: 50%;
+}
+
+.bottle:hover {
+    content: url(img/picdis.jpg);
+}
+
+.para {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    min-height: 100vh;  
+    align-items: center;
+    background: repeating-linear-gradient(#00CED1,#FFF);
+    font-family: sans-serif;
+}
+
+.para p {
+    margin: 10%;
+    font-size: 55px;
+    background: -webkit-radial-gradient(#2E8B57, #7d81ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.down-arrow2 {
+            width: 0;
+            height: 0;
+            border-left: 40px solid transparent;
+            border-right: 40px solid transparent;
+            border-top: 60px solid #000; 
+            margin: 0 auto;
+            margin-top: -10%;
+ }
+
+.mynotes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    background-color: white;
+}
+
+.my {
+    font-size: 50px;
+}
+
+.notes {
+    font-size: 35px;
+}
+
+@media (max-width: 768px) {
+
+.clickme {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(img/forest.jpg);
+    border: 10px solid #000;
+}
+
+.clickme p {
+    text-align: center;
+    font-size: 50px;
+    font-family: sans-serif;
+}
+
+.clickme a {
+    color: white;
+}
+
+.topic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 160vh;  
+    flex-direction: column;
+    color: white;
+    background: repeating-linear-gradient(#008B8B,#00FA9A);
+}
+
+.name {
+    font-size: 90px;
+}
+
+.name:hover {
+    background: -webkit-radial-gradient(#40ff00, #7d81ff, #00ed8a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.type {
+    font-size: 30px;
+    margin-left: 40%;
+}
+
+
+.see {
+    margin-top: 20%;
+}
+
+.topic a {
+    font-size: 15px;
+}
+
+.mainimg {
+    display: flex;
+    justify-content: space-evenly;
+    min-height: 100vh;
+    background: repeating-linear-gradient(#00FA9A,#00CED1);
+}
+
+ .down-arrow {
+            width: 0;
+            height: 0;
+            border-left: 20px solid transparent;
+            border-right: 20px solid transparent;
+            border-top: 30px solid #FFF; 
+            margin: 0 auto;
+            margin-top: 30%;
+
+        }
+
+.mainimg img {
+    width: 50%;
+    height: 50%;
+}
+
+.bottle:hover {
+    content: url(img/picdis.jpg);
+}
+
+.para {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    min-height: 100vh;  
+    align-items: center;
+    background: repeating-linear-gradient(#00CED1,#FFF);
+    font-family: sans-serif;
+}
+
+.para p {
+    margin: 10%;
+    font-size: 30px;
+    background: -webkit-radial-gradient(#2E8B57, #7d81ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.down-arrow2 {
+            width: 0;
+            height: 0;
+            border-left: 40px solid transparent;
+            border-right: 40px solid transparent;
+            border-top: 60px solid #000; 
+            margin: 0 auto;
+            margin-top: -10%;
+ }
+
+.mynotes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    background-color: white;
+}
+
+.my {
+    font-size: 25px;
+}
+
+.notes {
+    font-size: 20px;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
