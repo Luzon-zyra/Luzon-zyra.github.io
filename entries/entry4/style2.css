@@ -7,7 +7,7 @@
     width: 100vw;
     font-size: 30px;
     color: #FFFFFF;
-    background: -webkit-linear-gradient(#FFD700, #000000);
+    background: -webkit-linear-gradient(#F0E68C, #000000);
     border: 10px solid #000;
     padding: 20px;
 }
@@ -62,7 +62,7 @@
     display: flex;
     margin: 100px;
     margin-top: -50px;
-    border: 10px solid #FFD700;
+    border: 10px solid #F0E68C;
     padding: 20px;
     font-size: 50px;
 }
@@ -103,7 +103,7 @@
 
 .notes {
     font-size: 50px;
-    background: linear-gradient(to left,#000000, #FFD700);
+    background: linear-gradient(to left,#000000, #F0E68C);
 }
 
 .top {
