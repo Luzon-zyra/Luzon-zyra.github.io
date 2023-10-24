@@ -1,0 +1,10 @@
+.topic {
+	font-size: 100px;
+	display: flex;
+	justify-content: center;
+}
+
+.list {
+	display: flex;
+	justify-content: space-evenly;
+}
