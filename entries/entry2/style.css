@@ -1,3 +1,7 @@
+body {
+    background-color: #7FFFD4;
+}
+
 .perfumelibraryheadline {
     display: flex;
     justify-content: center;
