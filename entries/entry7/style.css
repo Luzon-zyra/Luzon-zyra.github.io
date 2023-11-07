@@ -1,0 +1,148 @@
+@font-face {
+    font-family: 'caveat';
+    src: url('fonts/caveat/caveat-variableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'pacifico';
+    src: url('fonts/pacifico/pacifico-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'zeyada';
+    src: url('fonts/zeyada/zeyada-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'clarendon';
+    src: url('fonts/clarendon/clarendonbt-bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+	background: linear-gradient(#FFF,#add9b2);
+}
+
+
+.phy {
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	justify-content: center;
+}
+
+.text {
+	font-size: 120px;
+	font-family: clarendon;
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.main {
+	font-family: zeyada;
+	font-size: 50px;
+	margin-top: 25%;
+	margin-left: 25%;
+	margin-right: 25%;
+	justify-content: center;
+}
+
+.tree {
+	display: flex;
+	justify-content: center;
+}
+
+img {
+	max-width: 30%;
+	display: flex;
+	justify-content: space-evenly;
+	margin: auto;
+	padding: auto;
+}
+
+
+
+svg {
+	max-width: 50%;
+	display: block;
+	margin: auto;
+	align-content: center;
+	animation-name: bigtosmall;
+	animation-duration: 4s;
+	animation-iteration-count: 1;
+}
+
+@keyframes bigtosmall {
+	0%, 100% {
+		transform: scale(0);
+		rotate: 0deg;
+	}
+	50% {
+		transform: scale(2);
+		rotate: 360deg;
+	}
+}
+
+@keyframes fadeinout {
+	0%, 100% {
+		opacity: 0;
+	}
+	50% {
+		opacity: 1;
+	}
+} 
+
+.edt {
+	animation: fadeinout 4s linear infinite;
+}
+
+.edp {
+	animation: fadeinout 4s linear infinite;
+}
+
+
+
+
+.parfum {
+	font-family: clarendon;
+	font-size: 35px;
+	color: #FFF;
+	margin-left: 20%;
+	position: sticky;
+	top: 500px;
+}
+
+.toilette {
+	font-family: clarendon;
+	font-size: 35px;
+	color: #FFF;
+	margin-left: 60%;
+	position: sticky;
+	top: 100px;
+}
+
+.my {
+	font-size: 30px;
+	font-family: caveat;
+	display: flex;
+	justify-content: space-evenly;
+	margin: 10%;
+	background-color: #FFF;
+}
+
+.hp {
+	font-size: 30px;
+	font-family: zeyada;
+	display: flex;
+	justify-content: center;
+}
