@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'megrim';
+    src: url('fonts/megrim/megrim-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'rubikmoonrocks';
+    src: url('fonts/rubikmoonrocks/rubikmoonrocks-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'shadowsintolight';
+    src: url('fonts/shadowsintolight/shadowsintolight-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background: linear-gradient(#FFF, DodgerBlue);
+}
+
+.perfume {
+    font-family: rubikmoonrocks;
+    font-size: 100px;
+    color: blue;
+    justify-content: center;
+    display: flex;
+    margin-top: 25%;
+    margin-bottom: 20%;
+    animation: popup 2s ease infinite;
+}
+
+@keyframes popup {
+  0% {
+    transform: translate(0px, 0px);
+  }
+  50% {
+    transform: translate(0px, -20px);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    min-width: 25%;
+    margin-bottom: 20%;
+}
+
+.title {
+    border-bottom: 1px solid black;
+    padding: 20px;
+    cursor: pointer;
+    font-size: 50px;
+    font-family: rubikmoonrocks;
+    color: white;
+}
+
+.title:hover {
+    background: blue;
+}
+
+.content {
+    padding: 20px;
+    display: none;
+    border-bottom: 1px solid black;
+    color: blue;
+    font-family: shadowsintolight;
+    font-size: 25px;
+    padding-left: 15%;
+}
