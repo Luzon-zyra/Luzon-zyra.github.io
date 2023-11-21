@@ -1,0 +1,89 @@
+@font-face {
+    font-family: 'megrim';
+    src: url('fonts/megrim/megrim-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'pacifico';
+    src: url('fonts/pacifico/pacifico-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background: linear-gradient(#FFFAF0,#FFE4E1);
+}
+
+.name {
+    font-family: megrim;
+    font-size: 125px;
+    display: flex;
+    justify-content: center;
+    color: #DB7093;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+}
+
+
+.title {
+    border-bottom: 1px #FFC0CB;
+    padding: 20px;
+    cursor: pointer;
+    font-size: 50px;
+    font-family: pacifico;
+    color: white;
+}
+
+.title:hover {
+    background: #FFC0CB;
+}
+
+.content {
+    padding: 20px;
+    display: none;
+    border-bottom: 1px #FFC0CB;
+    color: #DB7093;
+    font-family: megrim;
+    font-size: 25px;
+    padding-left: 15%;
+}
+
+.dis {
+    display: flex;
+    justify-content: center;
+    padding-left: 30%;
+    font-size: 35px;
+    font-family: pacifico;
+    color: #BC8F8F;
+
+}
+
+        .main {
+            margin-top: 5%;
+            margin-left: 10%;
+            color: #DB7093;
+            font-size: 50px;
+            font-family: pacifico;
+        }
+
+        .button-container {
+            margin-left: 50%;
+            bottom: 75px;
+            right: 75px;
+
+        }
+
+        button {
+            font-size: 25px;
+            font-family: pacifico;
+            color: #DB7093;
+        }
+
+        .list-one {
+            color: red;
+            font-family: megrim;
+        }
