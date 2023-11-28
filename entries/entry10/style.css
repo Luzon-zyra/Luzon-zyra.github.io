@@ -1,0 +1,75 @@
+@font-face {
+    font-family: 'quantico';
+    src: url('fonts/quantico/quantico-bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'pridi';
+    src: url('fonts/pridi/pridi-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}    
+
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: linear-gradient(#8B0000,#000);
+    }
+    .content {
+      display: none;
+      text-align: center;
+            color: #B22222;
+    }
+    img {
+      max-width: 300px;
+      max-height: 300px;
+      position: fixed;
+      top: 20px;
+    }
+    button {
+      margin: 5px;
+      padding: 10px 20px;
+      font-size: 20px;
+      font-family: quantico;
+      background-color: #000;
+      color: #8B0000;
+    }
+
+    .button1 {
+    font-family: quantico;
+    font-size: 70px;
+    position: fixed;
+    top: 100px;
+    right: 100px;
+    animation: popup 2s ease infinite;
+}
+
+@keyframes popup {
+  0% {
+    transform: translate(0px, 0px);
+  }
+  50% {
+    transform: translate(0px, -20px);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+    }
+
+    .button3 {
+      font-family: pridi;
+      font-size: 20px;
+      padding-left: 20%;
+      padding-right: 20%;
+      position: fixed;
+      bottom: 5px;
+    }
+
+    .button4 {
+      font-family: pridi;
+      font-size: 20px;
+    }
