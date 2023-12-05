@@ -1,5 +1,5 @@
 body {
-    background-color: #7FFFD4;
+    background: linear-gradient(#FFF,#7FFFD4);
 }
 
 .perfumelibraryheadline {
@@ -126,7 +126,7 @@ body {
 }
 
 .button:hover {
-            background-color: #0056b3;
+            background-color: #3CB371;
         }
 
 .notesbutton {
@@ -151,7 +151,7 @@ p1 {
     flex: 1;
     margin: 20px;
     margin-top: 50px;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 p2 {
@@ -178,11 +178,21 @@ img {
 .button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #007bff;
+    background-color: #008000;
     color: #fff;
     text-decoration: none;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     margin-top: 50px;
+}
+
+.notes {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.green {
+    color: #008000;
 }

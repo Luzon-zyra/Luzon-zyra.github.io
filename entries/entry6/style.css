@@ -258,8 +258,26 @@ body {
 
 }
 
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #008B8B;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 50px;
+}
 
+.button:hover {
+            background-color: #00FA9A;
+        }
 
+.navi {
+            display: flex;
+            justify-content: center;
+        }
 
 
 

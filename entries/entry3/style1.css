@@ -22,7 +22,7 @@ h1 {
 p {
 	font-size: 35px;
 	text-align: center;
-	font-family: sans-serif;
+	font-family: clarendonbt-bold;
 }
 
 .des1 {
@@ -32,6 +32,7 @@ p {
 	background-color: #000000;
 	justify-content: center;
 	align-items: center;
+	font-family: clarendonbt-bold;
 }
 p2 {
  	font-size: 30px;
@@ -72,7 +73,7 @@ p4 {
 	background-color: #000000;
 	justify-content: center;
 	align-items: center;
-
+font-family: clarendonbt-bold;
 }
 
 p5 {
@@ -90,6 +91,7 @@ p5 {
 	height: 150px;
 	justify-content: center;
 	align-items: center;
+	font-family: clarendonbt-bold;
 }
 
 p6 {
@@ -102,6 +104,7 @@ p6 {
 	background-color: #000000;
 	justify-content: center;
 	align-items: center;
+	font-family: clarendonbt-bold;
 }
 
 p7 {
@@ -114,6 +117,7 @@ p7 {
 	justify-content: center;
 	align-items: center;
 	display: flex;
+	font-family: clarendonbt-bold;
 }
 
 p8 {
@@ -127,6 +131,7 @@ p8 {
 	justify-content: center;
 	align-items: center;
 	margin-bottom: 100px;
+	font-family: clarendonbt-bold;
 }
 
 .end {
@@ -156,4 +161,27 @@ p9 {
         }
 .tfwebsite:hover {
             background-color: #0056b3;
+        }
+
+
+    .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 50px;
+    	font-family: clarendonbt-bold;
+}
+
+.button:hover {
+            background-color: #B22222;
+        }
+
+        .navi {
+        	display: flex;
+        	justify-content: center;
         }

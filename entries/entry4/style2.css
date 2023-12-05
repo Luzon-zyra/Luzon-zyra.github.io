@@ -250,3 +250,23 @@
 .incense:hover {
             background-color: #0056b3;
         }
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 50px;
+}
+
+.button:hover {
+    background-color: #F0E68C;
+}
+.navi {
+    display: flex;
+    justify-content: center;
+}
